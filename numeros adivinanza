@@ -26,7 +26,7 @@
 <div class="form">
     <label for="guessField">Ingresa el número a adivinar:</label>
     <input type = "text" id = "guessField" class = "guessField">
-    <input type = "submit" value = "Submit guess" 
+    <input type = "submit" value = "PROBAR" 
            class = "guessSubmit" id = "submitguess">
 </div>
   
@@ -47,7 +47,7 @@
    if(x == y)
    {    
        alert("Felicitaciones! adivinaste el número! "
-               + guess + " GUESS ");
+               + guess + " FELICITACIONES ");
    }
    else if(x > y) /* if guessed number is greater
                    than actual number*/ 
